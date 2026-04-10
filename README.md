@@ -38,7 +38,7 @@ requirements -> packages needed to run the program
 ```md
 Download Wininstaller.ps1 
 https://github.com/Ruined-life/Forsaken-Voicelines/releases
-Open a command prompt window
+Open a command prompt window as ADMINISTRATOR
 Take note of where the file was installed (Move it into its own empty folder)
 Copy the file path of where you put the file
 Paste this: 
@@ -46,11 +46,15 @@ cd <file_path>
 then do ./Wininstaller.ps1
 
 It will likely throw an error about a policy. To fix it paste this:
-powershell -ExecutionPolicy Bypass -File .\installer.ps1
+powershell -ExecutionPolicy Bypass -File .\Wininstaller.ps1
+After the project has been cloned you want to navigate into the src folder and paste:
+python main.py
 ```
 ## Linux
 ```md
 Download Linuxinstaller.sh 
 https://github.com/Ruined-life/Forsaken-Voicelines/releases
 Run Linuxinstaller.sh
+After the project has been cloned you want to navigate into the src folder and run this command:
+sudo python3 main.py
 ```
