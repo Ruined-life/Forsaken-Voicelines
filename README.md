@@ -34,10 +34,13 @@ requirements -> packages needed to run the program
 
 ## Install Instructions
 ## Windows
+```md
 Download run_installer.bat
 Run the bat file.
-
+```
 ## Linux
+```md
 Download Linuxinstaller.sh
 Run Linuxinstaller.sh
 (Your a linux user you know how to use the terminal)
+```
