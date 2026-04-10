@@ -32,7 +32,9 @@ requirements -> packages needed to run the program
 ---
 
 ## Requirements
+```md
 Python 3.12
+```
 ---
 
 ## Build Instructions
@@ -44,7 +46,7 @@ pip install -r requirements.txt
 sudo apt install tesseract-ocr python3-gi
 ```
 
-### 1. Clone the repository
+### Clone the repository
 ```bash
 git clone <https://github.com/Ruined-life/Veeronica-Voicelines.git>
 cd Forsaken-Voicelines
