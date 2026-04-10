@@ -1,0 +1,6 @@
+sounddevice
+scipy.io
+pynput
+pyautogui
+pytesseract
+pillow
